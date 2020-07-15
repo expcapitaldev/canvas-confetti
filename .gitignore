@@ -41,3 +41,4 @@ coverage/
 shots/
 dist/
 temp/
+.idea

@@ -559,7 +559,7 @@
     return fire;
   }
 
-  module.exports = confettiCannon(null, { useWorker: true, resize: true });
+  module.exports = confettiCannon(null, { useWorker: false, resize: true });
   module.exports.create = confettiCannon;
 }((function () {
   if (typeof window !== 'undefined') {
